@@ -1,0 +1,23 @@
+//# address-hook(0x0013e4) end(0x0014e4)
+function void UpdateGamePause()
+{
+	if (global.zone_act == 0x0701)
+	{
+		u8 gameMode = global.game_mode & 0x7f
+		if (gameMode == 0x0c || gameMode == 0x08)
+		{
+			Renderer.enforceClearScreen(true)
+			Renderer.drawSprite("MHZ_TreeLeaves", camera.position.x, camera.position.y, 1, 0x60, 0xa000)
+		}
+	}
+	if (global.zone_act == 0x0900)
+	{
+		u8 gameMode = global.game_mode & 0x7f
+		if (gameMode == 0x0c || gameMode == 0x08)
+		{
+			Renderer.enforceClearScreen(true)
+			Renderer.drawSprite("LRZ_Smoke", camera.position.x, camera.position.y, 1, 0x60, 0xa000)
+		}
+	}
+	base.UpdateGamePause()
+}

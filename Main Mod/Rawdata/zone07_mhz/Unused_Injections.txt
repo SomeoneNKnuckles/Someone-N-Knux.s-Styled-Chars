@@ -1,0 +1,51 @@
+For Some Reason These Will Crash The Game, So They're Unused.
+
+
+	//Tiles
+        "mhz_tiles_custom": 
+        {
+                 "File": "zone07_mhz/Tiles/Custom.bin",
+                 "RomInject": "0x01A1EB6"
+        },
+        "mhz_tiles_primary": 
+        {
+                 "File": "zone07_mhz/Tiles/Primary.bin",
+                 "RomInject": "0x019ABF2"
+        },
+        "mhz_tiles_secondary": 
+        {
+                 "File": "zone07_mhz/Tiles/Secondary.bin",
+                 "RomInject": "0x019E714"
+        },
+	//Blocks
+        "mhz_blocks_custom": 
+        {
+                 "File": "zone07_mhz/Blocks/Custom.bin",
+                 "RomInject": "0x01A1B36"
+        },
+        "mhz_blocks_primary": 
+        {
+                 "File": "zone07_mhz/Blocks/Primary.bin",
+                 "RomInject": "0x019A312"
+        },
+        "mhz_blocks_secondary": 
+        {
+                 "File": "zone07_mhz/Blocks/Secondary.bin",
+                 "RomInject": "0x019DE94"
+        },
+	//Chunks
+        "mhz_chunks_custom": 
+        {
+                 "File": "zone07_mhz/Chunks/Custom.bin",
+                 "RomInject": "0x01A30E8"
+        },
+        "mhz_chunks_primary": 
+        {
+                 "File": "zone07_mhz/Chunks/Primary.bin",
+                 "RomInject": "0x019D044"
+        },
+        "mhz_chunks_secondary": 
+        {
+                 "File": "zone07_mhz/Chunks/Secondary.bin",
+                 "RomInject": "0x019DE94"
+        },

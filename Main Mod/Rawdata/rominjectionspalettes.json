@@ -1,0 +1,255 @@
+{
+	//AIZ1
+	"aiz1_palette":
+	{
+		"File": "zone01_aiz/Palettes/Main.bin",
+                "RomInject": "0x0A8B7C"
+	},
+	"aiz1_palette_water":
+	{
+		"File": "zone01_aiz/Palettes/Water.bin",
+                "RomInject": "0x0A8C9C"
+	},
+	"aiz1_palette_introemeralds":
+	{
+		"File": "zone01_aiz/Palettes/Intro.bin",
+                "RomInject": "0x0A8B1C"
+	},
+	//AIZ2
+	"aiz2_palette_water":
+	{
+		"File": "zone01_aiz/Palettes/Act 2 Water.bin",
+                "RomInject": "0x0A8D1C"
+	},
+	"aiz2_palette":
+	{
+		"File": "zone01_aiz/Palettes/Fire.bin",
+                "RomInject": "0x0A8BDC"
+	},
+	"aiz2_bomber":
+	{
+		"File": "zone01_aiz/Palettes/Boss.bin",
+                "RomInject": "0x0A8C3C"
+	},
+	//HCZ1
+	"hcz1_palette":
+	{
+		"File": "zone02_hcz/Palettes/1.bin",
+                "RomInject": "0x0A8D9C"
+	},
+	"hcz1_palette_water":
+	{
+		"File": "zone02_hcz/Palettes/Act 1 Water.bin",
+                "RomInject": "0x0A8E5C"
+	},
+	//HCZ2
+	"hcz2_palette":
+	{
+		"File": "zone02_hcz/Palettes/2.bin",
+                "RomInject": "0x0A8DFC"
+	},
+	"hcz2_palette_water":
+	{
+		"File": "zone02_hcz/Palettes/Act 2 Water.bin",
+                "RomInject": "0x0A8EDC"
+	},
+	//MGZ
+	"mgz_palette":
+	{
+		"File": "zone03_mgz/Palettes/Main.bin",
+                "RomInject": "0x0A8F5C"
+	},
+	"mgz_palette_cnzfade":
+	{
+		"File": "zone03_mgz/Palettes/Fade to CNZ.bin",
+                "RomInject": "0x0364896"
+	},
+	//CNZ
+	"cnz_palette":
+	{
+		"File": "zone04_cnz/Palettes/Main.bin",
+                "RomInject": "0x0A8FBC"
+	},
+	"cnz_palette_water":
+	{
+		"File": "zone04_cnz/Palettes/Water.bin",
+                "RomInject": "0x0A901C"
+	},
+	"cnz_palette_flash":
+	{
+		"File": "zone04_cnz/Palettes/Flash.bin",
+                "RomInject": "0x066932"
+	},
+	//ICZ
+	"icz1_palette":
+	{
+		"File": "zone05_icz/Palettes/1.bin",
+                "RomInject": "0x0A915C"
+	},
+	"icz2_palette":
+	{
+		"File": "zone05_icz/Palettes/2.bin",
+                "RomInject": "0x0A91BC"
+	},
+	"icz2_palette_water":
+	{
+		"File": "zone05_icz/Palettes/Act 2 Water.bin",
+                "RomInject": "0x0A921C"
+	},
+	//LBZ
+	"lbz1_palette":
+	{
+		"File": "zone06_lbz/Palettes/1.bin",
+                "RomInject": "0x0A929C"
+	},
+	"lbz2_palette":
+	{
+		"File": "zone06_lbz/Palettes/2.bin",
+                "RomInject": "0x0A92FC"
+	},
+	"lbz2_palette_water":
+	{
+		"File": "zone06_lbz/Palettes/Act 2 Water.bin",
+                "RomInject": "0x0A935C"
+	},
+
+	//Sonic & Knuckles
+
+	//MHZ1
+	"mhz1_palette":
+	{
+		"File": "zone07_mhz/Palettes/1.bin",
+                "RomInject": "0x0A943C"
+	},
+	//MHZ2
+	"mhz2_palette":
+	{
+		"File": "zone07_mhz/Palettes/2.bin",
+                "RomInject": "0x0A949C"
+	},
+	"mhz2_palette_gold":
+	{
+		"File": "zone07_mhz/Palettes/Act 2 Gold.bin",
+                "RomInject": "0x0550FE"
+	},
+	"mhz2_palette_flyingbattery":
+	{
+		"File": "zone07_mhz/Palettes/Act 2 Ship.bin",
+                "RomInject": "0x0550DE"
+	},
+	//FBZ - Shared Palettes
+	"fbz_palette_indoors":
+	{
+		"File": "zone08_fbz/Palettes/FBZ BG Indoors.bin",
+                "RomInject": "0x052DC0"
+	},
+	"fbz_palette_outdoors":
+	{
+		"File": "zone08_fbz/Palettes/FBZ BG Outdoors.bin",
+                "RomInject": "0x052DD0"
+	},
+	"fbz_palette_cloud":
+	{
+		"File": "zone08_fbz/Palettes/FBZ Cloud.bin",
+                "RomInject": "0x060B3A"
+	},
+	//FBZ1
+	"fbz1_palette":
+	{
+		"File": "zone08_fbz/Palettes/FBZ1.bin",
+                "RomInject": "0x0A90FC"
+	},
+	//FBZ2
+	"fbz2_palette":
+	{
+		"File": "zone08_fbz/Palettes/FBZ2.bin",
+                "RomInject": "0x0A909C"
+	},
+	//SOZ1
+	"soz1_palette":
+	{
+		"File": "zone09_soz/Palettes/1.bin",
+                "RomInject": "0x0A94FC"
+	},
+	"soz1_palette_clone":
+	{
+		"File": "zone09_soz/Palettes/1.bin",
+                "RomInject": "0x0A95BC"
+	},
+	//SOZ2 - We Skip SOZ2 For Now
+	//LRZ1
+	"lrz1_palette":
+	{
+		"File": "zone10_lrz/Palettes/1.bin",
+                "RomInject": "0x0A967C"
+	},
+	//LRZ2
+	"lrz2_palette":
+	{
+		"File": "zone10_lrz/Palettes/2.bin",
+                "RomInject": "0x0A96DC"
+	},
+	//LRZ3? - It's Actually Act 3 But The Game Tells You It's Act 2...
+	"lrz2_palette_boss":
+	{
+		"File": "zone10_lrz/Palettes/Boss Act.bin",
+                "RomInject": "0x0A9CDC"
+	},
+	"lrz2_palette_boss_fire":
+	{
+		"File": "zone10_lrz/Palettes/Boss Act Fire.bin",
+                "RomInject": "0x079726"
+	},
+	//HPZ
+	"hpz_palette":
+	{
+		"File": "zone11_hpz/Palettes/Main.bin",
+                "RomInject": "0x0669D2"
+	},
+	"hpz_palette_intro":
+	{
+		"File": "zone11_hpz/Palettes/Intro.bin",
+                "RomInject": "0x0A9D3C"
+	},
+	//SSZ - Sonic & Tails
+	"ssz1_palette":
+	{
+		"File": "zone12_ssz/Palettes/1.bin",
+                "RomInject": "0x0A973C"
+	},
+	"ssz_palette_deathegg":
+	{
+		"File": "zone12_ssz/Palettes/Death Egg.bin",
+                "RomInject": "0x0577DA"
+	},
+	"ssz_palette_orbs":
+	{
+		"File": "zone12_ssz/Palettes/MTZOrbs.bin",
+                "RomInject": "0x07B268"
+	},
+	//SSZ - Knuckles
+	"ssz2_palette":
+	{
+		"File": "zone12_ssz/Palettes/2.bin",
+                "RomInject": "0x0A979C"
+	},
+	//DEZ
+	"dez1_palette":
+	{
+		"File": "zone13_dez/Palettes/1.bin",
+                "RomInject": "0x0A98BC"
+	},
+	"dez2_palette":
+	{
+		"File": "zone13_dez/Palettes/2.bin",
+                "RomInject": "0x0A991C"
+	},
+	//DDZ
+	"ddz_palette":
+	{
+		"File": "zone14_ddz/Palettes/Main.bin",
+                "RomInject": "0x0A997C"
+	},
+
+}
+
