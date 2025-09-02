@@ -1,0 +1,70 @@
+{
+	"Metadata":
+	{
+		"Name": "S&KSC Zone Palettes Standalone",
+		"Author": "Someone & Knuckles",
+		"Description": "Some Palettes For The Zones",
+		"ModVersion": "0.18.8.1"
+	},
+	"Settings":
+	{
+		"Settings":
+		[
+			
+			{
+				"InternalName": "el-fondo-del-data",
+				"DisplayName": "Dataselect BG",
+				"Variable": "DSChar",
+				"DefaultValue": "0",
+				"Options":
+				{
+					"0": "Sonic",
+					"1": "Miles"
+				}
+			},
+			{
+				"InternalName": "efectos-visuales",
+				"DisplayName": "Zone Visual Effects",
+				"Variable": "OverFX",
+				"DefaultValue": "0",
+				"Options":
+				{
+					"0": "Activated",
+					"1": "Disabled"
+				}
+			},
+			{
+				"InternalName": "super-secreto",
+				"DisplayName": "SUPER SECRET TOGGLE",
+				"Variable": "SuperSecret",
+				"DefaultValue": "0",
+				"Options":
+				{
+					"0": "Disabled",
+					"1": "Activated (Only For Mobile)"
+				}
+			},
+		]
+	},
+	"OtherMods":
+	{
+		"cnz-background-bmp-recreation":
+		{
+			"DisplayName": "CNZ Background BMP Recreation - MAIN",
+			"IsRequired": "1",
+			"Priority": "Lower"
+	    	},
+		"mhz-background-bmp-recreation":
+		{
+			"DisplayName": "MHZ Background BMP Recreation - MAIN",
+			"IsRequired": "1",
+			"Priority": "Lower"
+	    	},
+		"soz-1-and-2-backgrounds-bmp-recreations":
+		{
+			"DisplayName": "SOZ 1 and 2 Backgrounds BMP Recreations - MAIN",
+			"IsRequired": "1",
+			"Priority": "Lower"
+	    	},
+	}
+}
