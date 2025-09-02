@@ -1,0 +1,11 @@
+{
+	// Overlay Effects
+	"MHZ_Atmosphere": 		{ "File": "MHZ_Atmosphere.bmp"},
+	"DDZ_Atmosphere": 		{ "File": "DDZ_Atmosphere.png"},
+	"LRZ_Smoke": 			{ "File": "LRZ Smoke.png"},
+	"LRZ_Smoke_BG": 		{ "File": "LRZ Smoke.png", "Center": "-16,16" },
+	"HPZ_Overlay": 			{ "File": "HPZ Overlay.png"},
+	"Black": 			{ "File": "Black.png"},
+	"Demo_time": 			{ "File": "Demo_time.png"},
+	"Not_Clickbait": 		{ "File": "Not Clickbait.png"},
+}
