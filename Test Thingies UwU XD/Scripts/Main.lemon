@@ -1,0 +1,98 @@
+global u8 SuperDDZspr
+global u8 Lifeicons
+global u8 UnderwaterSpr
+
+function u64 stringformat(u64 format, u64 arg1)
+{
+    if (SuperDDZspr == 00)
+    {
+        if (global.zone == 0x0c)
+        {
+            if (format == "character_supersonic_0x%02x") || (format == "character_hypersonic_0x%02x") || (format == "supersonic_peelout_%d") || (format == "hypersonic_peelout_%d")
+            {
+                    format = "character_supersonicDDZ_0x%02x"
+                    arg1 = (level.framecounter >> 2) % 2
+            
+                if (control.player1.state & CONTROL_UP)
+                {
+                        format = "character_supersonicDDZ_up_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+                if (control.player1.state & CONTROL_DOWN)
+                {
+                        format = "character_supersonicDDZ_down_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+                if (control.player1.state & CONTROL_LEFT)
+                {
+                        format = "character_supersonicDDZ_left_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+                if (control.player1.state & CONTROL_RIGHT)
+                {
+                        format = "character_supersonicDDZ_right_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+                if (control.player1.state & CONTROL_ABC)
+                {
+                        format = "character_supersonicDDZ_boost"
+                }
+                if (control.player1.state & CONTROL_UP) && (control.player1.state & CONTROL_RIGHT)
+                {
+                        format = "character_supersonicDDZ_up_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+                if (control.player1.state & CONTROL_DOWN) && (control.player1.state & CONTROL_RIGHT)
+                {
+                        format = "character_supersonicDDZ_down_0x%02x"
+                        arg1 = (level.framecounter >> 2) % 2
+                }
+            }        
+        }
+    }   
+    return base.stringformat(format, arg1)
+}
+
+function u64 getCharacterLivesIcon(u8 character) 
+{
+    bool isSuperActive = (char.character == CHARACTER_TAILS) ? super.active.tails : super.active    // This Will Basicly Make The Same As super.active But With super.active.tails
+
+    if (character == CHARACTER_SONIC)
+    {
+        if (Lifeicons == 00)
+        {
+            return (isSuperActive) ? "hud_lives_icon_super_sonic_S2" : "hud_lives_icon_sonic_S2"
+        }  
+        if (Lifeicons == 01)
+        {
+            return (isSuperActive) ? "hud_lives_icon_miracle_sonic_SCD" : "hud_lives_icon_sonic_SCD" // You Know The Refrence
+        }
+        if (Lifeicons == 02)
+        {
+            return (isSuperActive) ? "hud_lives_icon_super_sonic_SM" : "hud_lives_icon_sonic_SM"
+        }  
+    }
+    if (character == CHARACTER_TAILS) // No Miles Option For SCD & Mania Style Because They Don't Show A Name
+    {
+        if (Lifeicons == 00)
+        {
+            if (global.region_code & 0x80)
+            {
+                return (isSuperActive) ? "hud_lives_icon_super_tails_S2" : "hud_lives_icon_tails_S2"
+            }
+            else
+            {
+                return (isSuperActive) ? "hud_lives_icon_super_miles_S2" : "hud_lives_icon_miles_S2"
+            }
+        }  
+        if (Lifeicons == 01)
+        {
+            return (isSuperActive) ? "hud_lives_icon_miracle_tails_SCD" : "hud_lives_icon_tails_SCD" // You Know The Refrence
+        }
+        if (Lifeicons == 02)
+        {
+            return (isSuperActive) ? "hud_lives_icon_super_tails_SM" : "hud_lives_icon_tails_SM"
+        }  
+    }
+return base.getCharacterLivesIcon(character)
+}

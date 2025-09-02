@@ -1,0 +1,39 @@
+{
+	"Metadata":
+	{
+		"Name": "S&KSC Test Things",
+		"Author": "Someone & Knuckles",
+		"Description": "Uhh For Testing Things?",
+		"ModVersion": "1.0"
+	},
+	"Settings":
+	{
+		"Settings":
+		[
+			
+			{
+				"InternalName": "animaciones-de-super-sonic-en-ddz",
+				"DisplayName": "Super Sonic DDZ Anims",
+				"Variable": "SuperDDZspr",
+				"DefaultValue": "0",
+				"Options":
+				{
+					"0": "Enabled",
+					"1": "Disabled"
+				}
+			},
+			{
+				"InternalName": "S&KSC-estilo-de-iconos-de-vida",
+				"DisplayName": "Life Icon Style",
+				"Variable": "Lifeicons",
+				"DefaultValue": "0",
+				"Options":
+				{
+					"0": "Sonic 2",
+					"1": "Sonic CD",
+					"2": "Sonic Mania"
+				}
+			},
+		]
+	}
+}
